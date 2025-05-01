@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jun Han - Computer Science Student</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <div id="robot-bg"></div>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Jun Han</div>
+            <ul class="nav-links">
+                <li><a href="#about" data-en="About" data-zh="关于">About</a></li>
+                <li><a href="#skills" data-en="Skills" data-zh="技能">Skills</a></li>
+                <li><a href="#experience" data-en="Experience" data-zh="经历">Experience</a></li>
+                <li><a href="#hobbies" data-en="Hobbies" data-zh="爱好">Hobbies</a></li>
+                <li><a href="#contact" data-en="Contact" data-zh="联系">Contact</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button id="lang-en" class="lang-btn active">EN</button> |
+                <button id="lang-zh" class="lang-btn">中文</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Jun Han</h1>
+            <p data-en="Computer Science Student | AI & Data Science Enthusiast | Violinist" data-zh="计算机科学学生 | 人工智能与数据科学爱好者 | 小提琴手">Computer Science Student | AI & Data Science Enthusiast | Violinist</p>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 data-en="About Me" data-zh="关于我">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-en="Motivated individual striving to be a data scientist and machine learning engineer. Talented violinist. Bilingual in Mandarin and English." data-zh="积极进取，致力于成为数据科学家和机器学习工程师。小提琴演奏者。中英文双语。">Motivated individual striving to be a data scientist and machine learning engineer. Talented violinist. Bilingual in Mandarin and English.</p>
+                    <p data-en="Currently pursuing my undergraduate degree in Computer Science with a concentration in AI and Data Science. Passionate about leveraging technology to solve complex problems and create innovative solutions." data-zh="目前正在攻读计算机科学本科学位，专注于人工智能和数据科学。热衷于利用技术解决复杂问题并创造创新解决方案。">Currently pursuing my undergraduate degree in Computer Science with a concentration in AI and Data Science. Passionate about leveraging technology to solve complex problems and create innovative solutions.</p>
+                </div>
+                <div class="profile-image">
+                    <img src="profile.jpg" alt="Jun Han Profile Photo" class="profile-pic">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 data-en="Technical Skills" data-zh="技能">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>C++</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>TensorFlow</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 data-en="Experience" data-zh="经历">Experience</h2>
+            <div class="experience-card">
+                <h3>Logan Aluminum</h3>
+                <p class="date" data-en="Summer 2023" data-zh="2023年夏季">Summer 2023</p>
+                <p data-en="Software Development Intern" data-zh="软件开发实习生">Software Development Intern</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobbies" class="section">
+        <div class="container">
+            <h2 data-en="Hobbies & Interests" data-zh="爱好与兴趣">Hobbies & Interests</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <i class="fas fa-swimming-pool"></i>
+                    <h3 data-en="Swimming" data-zh="游泳">Swimming</h3>
+                </div>
+                <div class="hobby-card">
+                    <i class="fas fa-futbol"></i>
+                    <h3 data-en="Soccer" data-zh="足球">Soccer</h3>
+                </div>
+                <div class="hobby-card">
+                    <i class="fas fa-music"></i>
+                    <h3 data-en="Violin" data-zh="小提琴">Violin</h3>
+                </div>
+                <div class="hobby-card">
+                    <i class="fas fa-bicycle"></i>
+                    <h3 data-en="Mountain Biking" data-zh="山地自行车">Mountain Biking</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 data-en="Contact Me" data-zh="联系我">Contact Me</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> <span data-en="jun.han@example.com" data-zh="jun.han@example.com">jun.han@example.com</span></p>
+                <p><i class="fas fa-phone"></i> <span data-en="(555) 123-4567" data-zh="(555) 123-4567">(555) 123-4567</span></p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jun Han. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
